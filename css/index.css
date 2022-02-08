@@ -12,21 +12,23 @@ nav{
     z-index:100;
 }
 nav #home{background:url(../images/go_top_circle.png) no-repeat; background-size:cover;
-width:100px; height:100px; position:fixed; bottom:150px; right:10vw; z-index: 10; 
+width:100px; height:100px; position:fixed; bottom:150px; right:10vw; z-index: 100; 
 animation-name:ani_1;
-animation-duration:5.25s;
+animation-duration:52.5s;
 animation-delay:0s; 
 animation-direction:alternate;
 animation-timing-function:linear;
 animation-iteration-count:infinite;
-animation-fill-mode:none;}
+animation-fill-mode:none;
+place-items: center; display:grid;}
 @keyframes ani_1 {
     to{
        
-        transform:rotate(360deg);
+        transform:rotate(3600deg);
     }
 }
-nav #home2 {background:url(../images/go_top.png) no-repeat; background-size:cover;  width:45px; margin-right:18px; margin-bottom:8px;height:65px; position:fixed; z-index: 100; bottom:150px; right:10vw; padding:10px;}
+nav #home:hover{animation-play-state: paused;}
+nav #home2 {background:url(../images/go_top.png) no-repeat; background-size:cover;  width:100px; height:100px;position:fixed; z-index: 10; bottom:150px; right:10vw; }
 nav #portfolio_nav{
     height:80px;
     width:80vw;
@@ -43,6 +45,9 @@ nav #portfolio_nav ul{
 }
 nav #portfolio_nav ul li{display:grid; width:200px; height:80px; place-items:center; }
 nav #portfolio_nav ul li a{display:grid; width:200px; height:80px; place-items:center; text-decoration-line: none; color:#d4d4d4;font-size:22px; font-weight:500;}
+nav #portfolio_nav ul li #lost112:hover{background-color: #316bb8; color:#121212;}
+nav #portfolio_nav ul li #fitness:hover{background-color: #1da9fc; color:#121212;}
+nav #portfolio_nav ul li #nike:hover{background-color: #f4631c; color:#121212;}
 nav #portfolio_nav ul li:nth-child(1){grid-column:1/2; border:1px solid #d4d4d4;}
 nav #portfolio_nav ul li:nth-child(2){grid-column:2/3; border:1px solid #d4d4d4;}
 nav #portfolio_nav ul li:nth-child(3){grid-column:3/4; border:1px solid #d4d4d4;}
@@ -53,6 +58,10 @@ header{height:80px; margin:25px auto; display:grid; grid-template-columns:5vw 80
 header #logo{grid-column:2/3; background:url(../images/logo.png) no-repeat; background-size:cover;}
 header #menu{text-transform: uppercase; grid-column:4/5;}
 header #menu ul{list-style: none; padding:0; margin:0;display:grid; grid-template-columns: 82.5px 1fr 70px 1fr 110px;place-items: center;height:80px;}
+header #menu ul li a{ position:relative; }
+header #menu ul li a:after{ content:''; width:0; height: 3px; background: #fac728; position: absolute; bottom:-10px; left:0; transition: all .2s; opacity:0;}
+header #menu ul li a:hover:after{width:100%; opacity:1;}
+header #menu ul li a:hover:before{left: 0;}
 header #menu ul li:nth-child(1){grid-column:1/2;}
 header #menu ul li:nth-child(2){grid-column:3/4;}
 header #menu ul li:nth-child(3){grid-column:5/6;}
@@ -64,11 +73,15 @@ main #main1 #main1_2{margin:0 auto; text-align:center;}
 main #main1 #main1_3{display:grid; grid-template-columns: 1fr 490px 100px 180px 2fr; place-items: center;}
 main #main1 #main1_3 h2 {grid-column:2/3;}
 main #main1 #main1_3 div{grid-column:4/5; font-size:30px;}
-main #main2 {margin-top: 125px;}
+main #main1 #main1_3 div h3{margin: 15px;}
+main #main2 {margin-top: 170px;}
 main #main2 div{margin:0 auto; width: 75vw; border-top:1px solid #d4d4d4;border-bottom:1px solid #d4d4d4;}
 main #main2 div h3{font-size:65px; text-align:center;}
 main #main3 {margin:0 auto; margin-top:150px; position:relative; height: 1600px; }
-main #main3 div {border:1px solid #d4d4d4; border-radius:550px; width:550px; height:550px; display:grid; place-items: center; grid-template-rows:70px 50px 150px repeat(3,40px) 10px; z-index:1;}
+main #main3 div {border:1px solid #d4d4d4; border-radius:550px; width:550px; height:550px; display:grid; place-items: center; grid-template-rows:70px 50px 150px repeat(3,40px) 10px; z-index:1; filter: blur(2px);
+    -webkit-filter: blur(2px);}
+main #main3 div:hover{ filter: blur(0px);
+    -webkit-filter: blur(0px);}
 main #main3 div h4{font-size:35px; color:#fac728;margin:0; grid-row:2/3; font-weight:normal;}
 main #main3 div p{font-size:20px; color:#d4d4d4; margin:10px;}
 main #main3 div p:nth-child(2){grid-row:4/5;}
