@@ -29,9 +29,15 @@
         <meta name="theme-color" content="#ffffff">
 
         <link rel="stylesheet" href="common/normalize.css">
+        <!-- aos -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
+        <script>AOS.init();</script>
         <nav>
             <div id="home" style="cursor: pointer;" onclick="location.href='#';"></div>
             <a id ="home2" href="#"></a>
@@ -49,65 +55,66 @@
             <div id="logo"></div>
             <div id="menu">
                 <ul>
-                    <li><a href="#main2">about</a></li>
-                    <li><a href="#main4">work</a></li>
-                    <li><a href="#footer_top">contact</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </div>
         </header>
         <main>
             <div id="main1">
-                <div id="main1_1">
+                <div id="main1_1" data-aos="fade-left" data-aos-delay="450">
                     <h2>반갑습니다</h2>
                 </div>
-                <div id="main1_2">
+                <div id="main1_2" data-aos="fade-down" data-aos-delay="850">
                     <h2>"발전" 하는 <span>윤성호</span></h2>
                 </div>
-                <div id="main1_3">
+                <div id="main1_3" data-aos="fade-right" data-aos-delay="650">
                     <h2>입니다</h2>
-                    <div>
+                    <div data-aos="zoom-in-left" data-aos-delay="1250">
                         <h3><span>Development</span></h3>
                         <h3>Challenge</h3>
                         <h3>Thinking</h3>
                     </div>
                 </div>
             </div>
-            <div id="main2">
-                <div>
+            <div id="main2" >
+                <div id="about"></div>
+                <div data-aos="zoom-in" data-aos-delay="250">
                     <h3>사용자 친화적인 웹사이트를 위한 <span>방법</span>을 찾아 <br>
                         스스로 생각, 도전, 발전하고 있습니다.
                     </h3>
                 </div>
             </div>
-            <div id="main3">
-                <div id="main3_1">
+            <div id="main3" >
+                <div id="main3_1" data-aos="zoom-in-up" data-aos-delay="450">
                     <h4>HTML5 & CSS3</h4>
                     <p>- 웹 접근성 및 표준화에 맞춘 제작</p>
                     <p>- 미디어 쿼리를 이용한 반응형 웹 제작</p>
                     <p>- 애니메이션을 활용한 모션 활용</p>
                 </div>
-                <div id="main3_2">
+                <div id="main3_2" data-aos="zoom-in-up" data-aos-delay="550">
                     <h4>JavaScript(ES6)</h4>
                     <p>- 자바스크립트 ES6 문법 이해</p>
                     <p>- 게시판 슬라이드를 비롯한 다양한 움직임 구현</p>
                 </div>
-                <div id="main3_3">
+                <div id="main3_3" data-aos="zoom-in-up" data-aos-delay="650">
                     <h4>Git & GitHub</h4>
                     <p>- 작업물 소스코드 저장 및 버전관리</p>
                     <p>- 웹 호스팅 서비스 사용 가능</p>
                 </div>
-                <div id="main3_4">
+                <div id="main3_4" data-aos="zoom-in-up" data-aos-delay="550">
                     <h4>Zeplin</h4>
                     <p>- 디자이너와의 협업시 공동 작업 가능</p>
                     <p>- 디자인 품질의 유지 및 관리 용이</p>
                 </div>
-                <div id="main3_5">
+                <div id="main3_5" data-aos="zoom-in-up" data-aos-delay="650">
                     <h4>Open API</h4>
                     <p>- Netlify API를 활용하여 Git에 저장한</p>
                     <p>작업물을 배포</p>
                     <p>- 사이트 유지 및 보수를 수월하게 처리</p>
                 </div>
-                <div id="main3_6">
+                <div id="main3_6" data-aos="zoom-in-up" data-aos-delay="650">
                     <h4>Photoshop<br>&<br>Illustrator<br>&<br>XD</h4>
                     <p>- UI/UX를 고려한 이미지 편집 & 디자인</p>
                     <p>(스플래시 이미지, git등)</p>
@@ -116,20 +123,22 @@
                 </div>
             </div>
             <div id="main4">
-                <div>
+                <div id="work"></div>
+                <div data-aos="fade-up" data-aos-delay="450">
                     <h3>지금까지 작업한 <span>프로젝트</span>입니다.</h3>
                 </div>
             </div>
             <div id="main5">
-                <div id="main5_1"></div>
-                <div id="main5_2"></div>
-                <div id="main5_3"></div>
-                <div id="main5_4"></div>
-                <div id="main5_5"></div>
+                <div id="main5_1" data-aos="fade-down-right" data-aos-delay="450"></div>
+                <div id="main5_2" data-aos="flip-left" data-aos-delay="400"></div>
+                <div id="main5_3" data-aos="fade-right" data-aos-delay="400"></div>
+                <div id="main5_4" data-aos="fade-up-left" data-aos-delay="550"></div>
+                <div id="main5_5" data-aos="flip-left" data-aos-delay="450"></div>
             </div>
         </main>
         <footer>
-            <div id="footer_top">
+            <div id="contact"></div>
+            <div id="footer_top" data-aos="fade-down"  data-aos-delay="600">
                 <div>
                     <h2>감사합니다</h2>
                     <ul>
@@ -140,11 +149,9 @@
                     </ul>
                 </div>                
             </div>
-            <div id="footer_bottom">
+            <div id="footer_bottom" data-aos="fade-up"  data-aos-delay="650">
                 <p>Copyright ⓒ 2022 all rights reserved <span>윤성호의 포트폴리오</span> 입니다</p>
             </div>
         </footer>
-        <script>
-        </script>
     </body>
 </html>

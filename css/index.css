@@ -4,11 +4,12 @@ body{position:relative; margin:0 auto; background-color: #121212; color:#d4d4d4;
 span{color:#fac728;}
 h2{font-size:8.333vw;}
 nav{
+    margin:0 auto;
     width:80vw;
     height:4.166vw;
     position:fixed;
     bottom:0;
-    left:50%;transform:translate(-50%,0);
+    left:50vw;transform:translate(-50%,0);
     z-index:100;
 }
 nav #home{background:url(../images/go_top_circle.png) no-repeat; background-size:cover;
@@ -66,7 +67,7 @@ header #menu ul li:nth-child(2){grid-column:3/4;}
 header #menu ul li:nth-child(3){grid-column:5/6;}
 header #menu ul li a{color:#d4d4d4; text-decoration-line: none; font-size:2.1875vw;display:grid;}
 
-main #main1{width:100vw; margin:0 auto;}
+main #main1{width:100vw; margin:0 auto 15vw;}
 main #main1 h2{margin:0.5208vw;}
 main #main1 #main1_1{margin-left:10vw;}
 main #main1 #main1_2{margin:0 auto; text-align:center;}
@@ -75,8 +76,9 @@ main #main1 #main1_3 h2 {grid-column:2/3;}
 main #main1 #main1_3 div{grid-column:4/5; font-size:1.5625vw;}
 main #main1 #main1_3 div h3{margin: 0.7812vw; font-size:1.5625vw;}
 main #main2 {margin:8.854vw auto 0; width:100vw;}
-main #main2 div{margin:0 auto; width: 75vw; border-top:0.05208vw solid #d4d4d4;border-bottom:0.05208vw solid #d4d4d4;}
+main #main2 div{margin:0 auto; width:80vw; border-top:0.05208vw solid #d4d4d4;border-bottom:0.05208vw solid #d4d4d4;}
 main #main2 div h3{font-size:3.35vw; text-align:center;}
+main #main2 #about{visibility: hidden; height:2.5vw;}
 main #main3 {margin:7.8125vw auto 0; position:relative; height: 83.33vw;}
 main #main3 div {border:0.05208vw solid #d4d4d4; border-radius:50%; width:28.645vw; height:28.645vw; display:grid; place-items: center; grid-template-rows:7.031vw 2.6041vw 3.125vw repeat(3,2.083vw) 0.5208vw; z-index:1; filter: blur(0.1vw);
     -webkit-filter: blur(0.1vw);}
@@ -91,15 +93,16 @@ main #main3 div p:nth-child(3){grid-row:5/6}
 main #main3 div p:nth-child(4){grid-row:6/7}
 main #main3 div p:nth-child(5){grid-row:7/8}
 main #main3 #main3_1{position:absolute; left:9.65vw; }
-main #main3 #main3_2{position:absolute; left:50%; transform:translate(-50%,0);}
+main #main3 #main3_2{position:absolute; left:50vw; transform:translate(-50%,0);}
 main #main3 #main3_3{position:absolute; right:9.65vw;}
 main #main3 #main3_4{position:absolute; left:22.5vw; top:23.4375vw}
 main #main3 #main3_5{position:absolute; right:22.5vw; top:23.4375vw;}
-main #main3 #main3_6{position:absolute; top:46.875vw ;left:50%; transform:translate(-50%,0);grid-template-rows:7.8125vw 2.604vw 5.5208vw repeat(4,2.08vw) 0.5208vw}
+main #main3 #main3_6{position:absolute; top:46.875vw ;left:50vw; transform:translate(-50%,0);grid-template-rows:7.8125vw 2.604vw 5.5208vw repeat(4,2.08vw) 0.5208vw}
 main #main3 #main3_6 h4{text-align:center;}
 main #main4 {margin: 5.208vw auto 0; width:100vw;}
-main #main4 div{margin:0 auto; width: 66vw; border-top:0.05208vw solid #d4d4d4;border-bottom:0.05208vw solid #d4d4d4;}
+main #main4 div{margin:0 auto; width:80vw; border-top:0.05208vw solid #d4d4d4;border-bottom:0.05208vw solid #d4d4d4;}
 main #main4 div h3{font-size:4.427vw; text-align:center;}
+main #main4 #work{visibility: hidden; height:2.5vw;}
 main #main5 {width:100vw; margin:0 auto; height: 104.16vw; display:grid; grid-template: 5.208vw repeat(20,4.6875vw) 5.208vw / 6vw repeat(11,8vw) 6vw}
 main #main5 #main5_1{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 1; grid-row: 2/8; grid-column:4/9;}
 main #main5 #main5_2{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 5; grid-row: 7/13; grid-column:6/11;}
@@ -107,10 +110,11 @@ main #main5 #main5_3{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4
 main #main5 #main5_4{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 4; grid-row:12/18; grid-column:7/12;}
 main #main5 #main5_5{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 3; grid-row:16/22; grid-column:3/8;}
 footer{width:100vw; margin: 0 auto 9.635vw;}
-footer #footer_top {display:grid; height:15.625vw; grid-template-columns:10vw 57.29vw 22.7vw 10vw ;align-items: end; justify-items: start; margin-top:10.416vw;}
-footer #footer_top div{grid-column: 2/3; display:grid; grid-template-columns:41.66vw 18.229vw;}
+footer #contact{visibility: hidden; height:5vw;}
+footer #footer_top {display:grid; height:15.625vw; grid-template-columns:10vw 80vw 10vw ;align-items: end; justify-items: start; margin-top:10.416vw;}
+footer #footer_top div{grid-column: 2/3; display:grid; grid-template-columns:42vw 18vw;}
 footer #footer_top div h2{margin:0; grid-column:1/2; border-bottom:0.05208vw solid #d4d4d4;  padding-bottom:1.5625vw;}
-footer #footer_top div ul{display:grid; grid-template-columns:3.645vw 0.781vw 3.645vw 0.781vw 3.645vw 0.781vw 3.645vw; padding:0; margin:0; list-style: none; grid-column: 2/3; align-items:end; border-bottom:0.05208vw solid #d4d4d4; padding-bottom:1.5625vw;}
+footer #footer_top div ul{display:grid; grid-template-columns:3.645vw 0.855vw 3.645vw 0.855vw 3.645vw 0.855vw 3.645vw 0.855vw; padding:0; margin:0; list-style: none; grid-column: 2/3; align-items:end; border-bottom:0.05208vw solid #d4d4d4; padding-bottom:1.5625vw;}
 footer #footer_top div ul li:nth-child(1){grid-column:1/2;  background:url(../images/phone.png) no-repeat; background-size:cover; width:3.645vw; height:3.645vw;}
 footer #footer_top div ul li:nth-child(2){grid-column:3/4; background:url(../images/kakao_black.png) no-repeat; background-size:cover; width:3.645vw; height:3.645vw;}
 footer #footer_top div ul li:nth-child(3){grid-column:5/6; background:url(../images/email_black.png) no-repeat; background-size:cover; width:3.645vw; height:3.645vw;}
