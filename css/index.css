@@ -84,10 +84,10 @@ main #main3 div {border:0.05208vw solid #d4d4d4; border-radius:50%; width:28.645
     -webkit-filter: blur(0.1vw);}
 main #main3 div h4{font-size:1.822vw; color:#fac728;margin:0; grid-row:2/3; font-weight:normal;}
 main #main3 div p{font-size:1.0416vw; color:#d4d4d4; margin:0.5208vw;}
-main #main3 div:hover{width:31.25vw; height:31.25vw;  border:0.05208vw solid rgba(255,255,255, 0.65); background-color:rgba(255,255,255, 0.65); filter: blur(0);
+main #main3 div:hover{width:31.25vw; height:31.25vw;  border:0.05208vw solid rgba(57, 21, 214, 0.85); background-color:rgba(57, 21, 214, 0.85); filter: blur(0);
     -webkit-filter: blur(0); transition: all .4s; z-index:10;}
 main #main3 div:hover h4{font-size:1.979vw; color:#fac728;margin:0; grid-row:2/3; font-weight:normal;}
-main #main3 div:hover p{font-size:1.145vw; color:#121212; margin:0.625vw;}
+main #main3 div:hover p{font-size:1.145vw; color:#d4d4d4; margin:0.625vw;}
 main #main3 div p:nth-child(2){grid-row:4/5;}
 main #main3 div p:nth-child(3){grid-row:5/6}
 main #main3 div p:nth-child(4){grid-row:6/7}
