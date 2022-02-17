@@ -79,15 +79,24 @@
         <main>
             <div id="main1">
                 <div id="main1_1">
-                    <h2>반갑습니다</h2>
+                    <h2 class="container-scroller_item"> 반갑습니다</h2>
+                    <h2 class="container-scroller_item"> 안녕하세요</h2>
+                    <h2 class="container-scroller_item"> 감사합니다</h2>
+                    <h2 class="container-scroller_item"> 반갑습니다</h2>
                 </div>
                 <div id="main1_2">
-                    <h2>"발전" 하는 <span>윤성호</span></h2>
+                    <div>"</div>
+                    <div class="container-scroller_item">발전</div>
+                    <div class="container-scroller_item">도전</div>
+                    <div class="container-scroller_item">생각</div>
+                    <div class="container-scroller_item">발전</div>
+                    <div>" 하는 </div>
+                    <div>윤성호</div>
                 </div>
                 <div id="main1_3">
                     <h2>입니다</h2>
-                    <div>
-                        <h3><span>Development</span></h3>
+                    <div id="main1_3_2">
+                        <h3 class="main1_3_2_color">Development</h3>
                         <h3>Challenge</h3>
                         <h3>Thinking</h3>
                     </div>
@@ -214,7 +223,18 @@
                 scrollTop: $("#contact").offset().top
             }, 1700);
             });
-            
+            // main1_3 interval color change jQuery
+            $(function(){
+            var idx = 1;
+            setInterval(time, 2666);
+            function time(){
+            var box = $('#main1_3_2 h3');
+            box.removeClass('main1_3_2_color');
+            box.eq(idx).addClass('main1_3_2_color');
+            idx++;
+            if(idx >= box.length) idx= 0;
+            }
+});         
         </script>
     </body>
 </html>
