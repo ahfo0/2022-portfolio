@@ -43,9 +43,7 @@
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.4.1.js"   
 	    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="   
-	    crossorigin="anonymous">
-</script>
-        
+	    crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="css/index.css">
     </head>
@@ -57,7 +55,7 @@
             <div id="portfolio_nav">
                 <ul>
                     <li><a href="https://xd.adobe.com/view/5dd5a1b6-3c36-4067-8796-f41a7cc9cb32-0886/?fullscreen&hints=off" target="_blank" id="lost112">Lost 112</a></li>
-                    <li><a href="https://220127.netlify.app" id="fitness">Fitness</a></li>
+                    <li><a href="project_Fitness.html" id="fitness">Fitness</a></li>
                     <li><a href="https://220203.netlify.app" id="nike">Nike</a></li>
                     <li><a href=""></a></li>
                     <li><a href=""></a></li>
@@ -70,7 +68,7 @@
                 <div id="menu">
                     <ul>
                         <li><a href="#about" id="go_about">about</a></li>
-                        <li><a href="#work" id="go_work">work</a></li>
+                        <li><a href="#project" id="go_project">project</a></li>
                         <li><a href="#contact" id="go_contact">contact</a></li>
                     </ul>
                 </div>
@@ -147,7 +145,7 @@
                 </div>
             </div>
             <div id="main4">
-                <div id="work"></div>
+                <div id="project"></div>
                 <div data-aos="fade-down" data-aos-delay="250">
                     <h3>지금까지 작업한 <span>프로젝트</span>입니다.</h3>
                 </div>
@@ -207,15 +205,15 @@
                     behavior:'smooth'
                 });
             });
-            // header의 About Work Contact 부드럽게 이동 Jquery
+            // header의 About Project Contact 부드럽게 이동 Jquery
             $("#go_about").click(function() {
             $('html, body').animate({
                 scrollTop: $("#about").offset().top
             }, 2000);
             });
-            $("#go_work").click(function() {
+            $("#go_project").click(function() {
             $('html, body').animate({
-                scrollTop: $("#work").offset().top
+                scrollTop: $("#project").offset().top
             }, 1800);
             });
             $("#go_contact").click(function() {

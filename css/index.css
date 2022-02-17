@@ -56,10 +56,10 @@ nav #portfolio_nav ul li:nth-child(3){grid-column:3/4; border:0.05208vw solid #d
 nav #portfolio_nav ul li:nth-child(4){grid-column:4/5}
 nav #portfolio_nav ul li:nth-child(5){grid-column:5/6}
 header{width:100vw; height:6.77vw; background-color: #121212;}
-header #header{width:100vw; height:6.77vw; margin:0 auto; display:grid; grid-template:1.302vw 4.166vw 1.302vw /5vw 4.166vw 1fr 23.43vw 5vw;position:fixed; top:0;  transition:0.5s; background-color: #121212; z-index:2000;}
+header #header{width:100vw; height:6.77vw; margin:0 auto; display:grid; grid-template:1.302vw 4.166vw 1.302vw /5vw 4.166vw 1fr 26.4298vw 5vw;position:fixed; top:0;  transition:0.5s; background-color: #121212; z-index:2000;}
 header #header #logo{grid-row:2/3; grid-column:2/3; background:url(../images/logo.png) no-repeat; background-size:cover;}
 header #header #menu{grid-row:2/3; text-transform: uppercase; grid-column:4/5;}
-header #header #menu ul{list-style: none; padding:0; margin:0;display:grid; grid-template-columns: 4.2968vw 4.88vw 3.645vw 4.88vw 5.729vw;place-items: center;height:4.166vw;}
+header #header #menu ul{list-style: none; padding:0; margin:0;display:grid; grid-template-columns: 4.2968vw 4.88vw 5.729vw 4.88vw 5.729vw;place-items: center;height:4.166vw;}
 header #header #menu ul li a{ position:relative; }
 header #header #menu ul li a:after{ content:''; width:0; height: 0.1562vw; background: #fac728; position: absolute; bottom:-0.5208vw; left:0; transition: all .3s; opacity:0;}
 header #header #menu ul li a:hover:after{width:100%; opacity:1;}
@@ -151,7 +151,7 @@ main #main3 #main3_6 h4{text-align:center;}
 main #main4 {margin: 5.208vw auto 0; width:100vw;}
 main #main4 div{margin:0 auto; width:80vw; border-top:0.05208vw solid #d4d4d4;border-bottom:0.05208vw solid #d4d4d4;}
 main #main4 div h3{font-size:4.427vw; text-align:center;}
-main #main4 #work{visibility: hidden; height:2.5vw;}
+main #main4 #project{visibility: hidden; height:2.5vw;}
 main #main5 {width:100vw; margin:0 auto; height: 104.16vw; display:grid; grid-template: 5.208vw repeat(20,4.6875vw) 5.208vw / 6vw repeat(11,8vw) 6vw}
 main #main5 #main5_1{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 1; grid-row: 2/8; grid-column:4/9;}
 main #main5 #main5_2{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 5; grid-row: 7/13; grid-column:6/11;}
