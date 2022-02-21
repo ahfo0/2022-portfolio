@@ -70,15 +70,14 @@
                 <div id="menu">
                     <ul>
                         <li><a href="index.html">home</a></li>
-                        <li id="project"><a href="#">project</a>
-                            <div id="project_list">
-                                <ul>
-                                    <li><a href="project_Lost112.html">Lost 112</a></li>
-                                    <li><a href="project_Fitness.html">Fitness</a></li>
-                                    <li><a href="project_Nike.html">Nike</a></li>
-                                    <li><a href="#"></a></li>
-                                    <li><a href=""></a></li>
-                                </ul>
+                        <li id="project">project
+                            <ul id="project_list">
+                                <li><a href="project_Lost112.html">Lost 112</a></li>
+                                <li><a href="project_Fitness.html">Fitness</a></li>
+                                <li><a href="project_Nike.html">Nike</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -93,8 +92,8 @@
             </div>
             <div id="main2">
                 <div>저의 첫 개인 프로젝트 작업입니다.</div>
-                <div>첫 프로젝트인 만큼 원본에 충실한 재현을 위해 클론 코딩 방식을</div>
-                <div> 채용하였으며 원본의 단점 개선을 위한 몇 가지 도전을 해보았습니다.</div>
+                <div>단순 클론 코딩이 아닌 디자인만 참고하여 제 방식대로 구현했으며</div>
+                <div>원본의 단점 개선을 위한 도전을 몇 가지 해보았습니다.</div>
                 <div></div>
             </div>
             <div id="main3">
@@ -118,7 +117,7 @@
                 <div>
                     <div>
                         <p> </p>
-                        <p style="font-size:1.8vw;">Chrome 브라우저 최적화</p>
+                        <p>Chrome 브라우저 최적화</p>
                         <p> </p>
                     </div>
                     <div>
@@ -167,44 +166,18 @@
                 </div>
                 <div id="main5_3">
                     <div>
-                        <div>Color Balance</div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div></div>
-                    <div>
-                        <div>폰트의 컬러, 영역이 Header의 햄버거 메뉴나</div>
-                        <div>Program 메뉴에서 색감, 크기의 구분이 안되는 </div>
-                        <div>문제를 발견해 선명한 색상, 크기로 변경하였다.</div>
-                    </div>
-                </div>
-                <div id="main5_4">
-                    <div>
                         <div>Match Size</div>
                         <div></div>
                         <div></div>
                     </div>
                     <div></div>
                     <div>
-                        <div>일부 버튼 크기가 작아서 모바일, PC 모두 편하게 </div>
-                        <div>사용하기 어려워 전체적으로  버튼부의 border,</div>
-                        <div>box크기를 증가시켜 구분감을 늘렸다.</div>
+                        <div>일부 작은 버튼들의 크기를 증가시켜 쉽게 사용하게</div>
+                        <div>하고 addEventListener를 통해 여러 css를 토글로</div>
+                        <div> 적용하였다.</div>
                     </div>
                 </div>
-                <div id="main5_5">
-                    <div>
-                        <div>Layout</div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div></div>
-                    <div>
-                        <div>Footer부분의 서비스 종료된 SNS와 같이</div>
-                        <div>어색한 배치등을 Grid를 통해 사이트 본연의 </div>
-                        <div>느낌을 살려보았다. </div>
-                    </div>
-                </div>
-                <div id="main5_6">
+                <div id="main5_4">
                     <div>
                         <div>Kakao API</div>
                         <div></div>
@@ -227,12 +200,22 @@
                 var lastScrollTop = 0, delta = 15; 
                 $(window).scroll(function(event){ var st = $(this).scrollTop(); if(Math.abs(lastScrollTop - st) <= delta)
                 return; // 스크롤값을 받아서 리턴한다. 
-                if ((st > lastScrollTop) && (lastScrollTop>0)) { $("#header").css("top","-6.77vw"); // 스크롤을 내렸을때 #header의 CSS 속성중 top 값을 변경한다. 
+                if ((st > lastScrollTop) && (lastScrollTop>0)) { $("#header").css("top","-6.77vw"); // 스크롤을 내렸을때 #header의 CSS 속성중 top 값을 변경한다.
+                $('#project_list').css({'visibility':'hidden'});
+                $('#project_list').slideUp();
                 } else { $("#header").css("top","0"); // 스크롤을 올렸을때 #header의 CSS 속성중 top 값을 변경한다.
+                
              } lastScrollTop = st; }); });
-            
+
+            // 헤더 project list jQuery
+            $('#project_list').slideUp();
+            $('#project').on('click',()=>{
+                $('#project_list').css({'visibility':'visible'});
+                $('#project_list').slideToggle();
+                
+            })
+
             // 하단 네비게이션 스크롤 연동
-            
             document.querySelector('#nav').style.bottom = "-4.166vw";
             window.addEventListener('scroll',()=>{
                 // console.log('스크롤');
