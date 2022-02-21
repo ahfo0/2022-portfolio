@@ -101,10 +101,10 @@ main #main2 div:nth-child(4){grid-row:5/6;}
 main #main3{width:80vw; margin:0 10vw; display:grid; height:56.25vw; grid-template:repeat(10,5.625vw)/50vw 23.5vw 1fr; border-top:0.052vw solid #121212; border-bottom:0.052vw solid #121212; place-items: center;}
 main #main3 div:nth-child(1){grid-row:5/6; grid-column:1/2; font-size:5vw; margin-bottom:3vw;}
 main #main3 div:nth-child(2){grid-row:6/7; grid-column:1/2; font-size:5vw}
-main #main3 div:nth-child(2) a{color:inherit; text-decoration:none; font-size:2.1875vw; border: 0.2vw #121212 solid;transition:0.8s; padding:1vw 2vw; }
+main #main3 div:nth-child(2) a{color:inherit; text-decoration:none; font-size:2.1875vw; border: 0.2vw #121212 solid;transition:0.4s; padding:1vw 2vw; }
 main #main3 div:nth-child(2) a:hover{background-color:#1da9fc; color:#d4d4d4;}
-main #main3 div:nth-child(3){ grid-row:2/9;grid-column:2/3; border:0.7vw solid #121212;border-radius:2.4vw; width:19.7vw; height:42vw; overflow:hidden;position:relative}
-main #main3 div:nth-child(3) div{margin:0;}
+main #main3 div:nth-child(3){ grid-row:2/10;grid-column:2/3; border:0.7vw solid #121212; border-radius:2.4vw; width:19.7vw; height:44.25vw;}
+main #main3 div:nth-child(3) div{margin-bottom:0; position:relative; overflow:hidden;}
 main #main4{width:80vw; margin:0 10vw; display:grid; grid-template:0.7vw 1.5vw 2vw 45vw /repeat(2,40vw);}
 main #main4 div{font-size:1.5vw;}
 main #main4 div:nth-child(1){grid-row:2/3; grid-column:1/2; margin-left:0.5vw;}
@@ -113,8 +113,9 @@ main #main4 div:nth-child(3){grid-row:4/5; grid-column:1/2;}
 main #main4 div:nth-child(3) div{font-size:3.5vw; display:grid; grid-template-rows:5vw; margin-left:0.5vw;}
 main #main4 div:nth-child(3) div:nth-child(4){grid-column:1/2; grid-row:1/2; grid-template:1fr/1fr;}
 main #main4 div:nth-child(4){grid-row:4/5; grid-column:2/3; display:grid; grid-template:5vw 10vw 10vw 2vw /repeat(2,20vw);}
-main #main4 div:nth-child(4) div p{margin:0; margin-bottom:1vw;}
-main #main4 div:nth-child(4) div:nth-child(1){grid-row:1/2; grid-column:1/2;border-bottom:0.052vw solid #121212; margin:0;}
+main #main4 div:nth-child(4) div p{margin:0; margin-bottom:1vw; margin-left:1vw;}
+main #main4 div:nth-child(4) div:nth-of-type(even) p{margin-left:2vw;}
+main #main4 div:nth-child(4) div:nth-child(1){grid-row:1/2; grid-column:1/2;border-bottom:0.052vw solid #121212; margin:0; }
 main #main4 div:nth-child(4) div:nth-child(2){grid-row:1/2; grid-column:2/3;border-bottom:0.052vw solid #121212;}
 main #main4 div:nth-child(4) div:nth-child(3){grid-row:2/3; grid-column:1/2;border-bottom:0.052vw solid #121212;}
 main #main4 div:nth-child(4) div:nth-child(4){grid-row:2/3; grid-column:2/3; display:block;border-bottom:0.052vw solid #121212;}
@@ -141,3 +142,9 @@ main #main5 #main5_4 div:nth-child(1){grid-column:1/2; grid-row: 2/4; margin-lef
 main #main5 #main5_4 div:nth-child(2){grid-column:2/3; grid-row: 3/4;}
 main #main5 #main5_4 div:nth-child(3){grid-column:3/4; grid-row: 2/4;}
 main #main5 #main5_4 div:nth-child(3) div{margin-left:4vw; font-size:1.5vw;}
+main #main5 #main5_5{font-size:2vw;  display:grid; grid-template:2vw repeat(3,3vw) /38vw 4vw 38vw;border-bottom: 0.052vw solid #121212; text-align:left;}
+main #main5 #main5_5 div{margin-bottom:0.5vw}
+main #main5 #main5_5 div:nth-child(1){grid-column:1/2; grid-row: 2/4; margin-left:0.5vw;}
+main #main5 #main5_5 div:nth-child(2){grid-column:2/3; grid-row: 3/4;}
+main #main5 #main5_5 div:nth-child(3){grid-column:3/4; grid-row: 2/4;}
+main #main5 #main5_5 div:nth-child(3) div{margin-left:4vw; font-size:1.5vw;}
