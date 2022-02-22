@@ -71,7 +71,7 @@ header #header #menu ul li a{color:#d4d4d4; text-decoration-line: none; font-siz
 
 main #main1{width:100vw; margin:3.385vw auto 15vw;}
 main #main1 h2{margin:0.5208vw;}
-main #main1 #main1_1{margin-left:10vw; overflow: hidden; height: 9.3746vw;overflow: hidden;
+main #main1 #main1_1{margin-left:10vw;height: 9.3746vw;overflow: hidden;
 line-height:9.3746vw;}
 #main1_1 .container-scroller_item {
     width: 100%;
@@ -80,7 +80,7 @@ line-height:9.3746vw;}
     font-weight: bold;
     font-size: 8.333vw;
     margin:0;
-    animation:main1 8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite; 
+    /* animation:main1 8s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;  */
 }
 main #main1 #main1_2{margin:0 auto; height: 9.3746vw; text-align:center; display:grid;grid-template:repeat(4,9.374vw)/16vw 4.8vw 15.83vw 24.8vw 23vw 16vw; font-size: 8.333vw;   overflow: hidden; font-weight:bold;}
 #main1_2 .container-scroller_item {
@@ -152,12 +152,21 @@ main #main4 {margin: 5.208vw auto 0; width:100vw;}
 main #main4 div{margin:0 auto; width:80vw; border-top:0.05208vw solid #d4d4d4;border-bottom:0.05208vw solid #d4d4d4;}
 main #main4 div h3{font-size:4.427vw; text-align:center;}
 main #main4 #project{visibility: hidden; height:2.5vw;}
-main #main5 {width:100vw; margin:0 auto; height: 104.16vw; display:grid; grid-template: 5.208vw repeat(20,4.6875vw) 5.208vw / 6vw repeat(11,8vw) 6vw}
+main #main5 {width:100vw; margin:0 auto; height: 104.16vw; display:grid; grid-template: 5.208vw repeat(20,4.6875vw) 5.208vw / 6vw repeat(11,8vw) 6vw;}
+main #main5 p{font-size:2vw; margin:1vw;}
+main #main5 h3{font-size: 7vw; font-weight:bold; margin:0 auto; text-align: center; line-height: 18vw;}
+
 main #main5 #main5_1{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 1; grid-row: 2/8; grid-column:4/9;}
+main #main5 #main5_1:hover{z-index:6}
 main #main5 #main5_2{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 5; grid-row: 7/13; grid-column:6/11;}
+main #main5 #main5_2:hover{z-index:6}
 main #main5 #main5_3{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 2; grid-row: 11/17; grid-column:2/7;}
+main #main5 #main5_3:hover{z-index:6}
 main #main5 #main5_4{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 4; grid-row:12/18; grid-column:7/12;}
+main #main5 #main5_4:hover{z-index:6}
+main #main5 #main5_4 p{text-align:right}
 main #main5 #main5_5{width:40vw; height:28.125vw; border:0.05208vw solid #d4d4d4; background-color: #121212;z-index: 3; grid-row:16/22; grid-column:3/8;}
+main #main5 #main5_1:hover{z-index:6}
 footer{width:100vw; margin: 0 auto 9.635vw;}
 footer #contact{visibility: hidden; height:5vw;}
 footer #footer_top {display:grid; height:15.625vw; grid-template-columns:10vw 80vw 10vw ;align-items: end; justify-items: start; margin-top:10.416vw;}
@@ -171,5 +180,3 @@ footer #footer_top div ul li:nth-child(4){grid-column:7/8; background:url(../ima
 footer #footer_top div ul li a{display:grid; width:3.125vw; height:3.125vw;}
 footer #footer_bottom{padding-top:1.5625vw; margin-left:10vw;}
 footer #footer_bottom p{font-size:1.5625vw;}
-
-
