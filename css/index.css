@@ -153,18 +153,18 @@ main #main4 div{margin:0 auto; width:80vw; border-top:0.05208vw solid #d4d4d4;bo
 main #main4 div h3{font-size:4.427vw; text-align:center;}
 main #main4 #project{visibility: hidden; height:2.5vw;}
 main #main5 {width:100vw; margin:0 auto; height: 104.16vw; display:grid; grid-template: 5.208vw repeat(20,4.6875vw) 5.208vw / 6vw repeat(11,8vw) 6vw;}
-main #main5 p{font-size:2vw; margin:1vw;}
-main #main5 h3{font-size: 7vw; font-weight:bold; margin:0 auto; text-align: center; line-height: 18vw;}
-main #main5 #main5_1{width:40vw; height:28.125vw;  background-color: transparent;z-index: 1; grid-row: 2/8; grid-column:4/9;}
-
-main #main5 #main5_2{width:40vw; height:28.125vw;  background-color: transparent;z-index: 5; grid-row: 7/13; grid-column:6/11;}
-
-main #main5 #main5_3{width:40vw; height:28.125vw;  background-color: transparent;z-index: 2; grid-row: 11/17; grid-column:2/7;}
-
-main #main5 #main5_4{width:40vw; height:28.125vw; background-color: transparent;z-index: 4; grid-row:12/18; grid-column:7/12;}
-
-main #main5 #main5_4 p{text-align:right}
-main #main5 #main5_5{width:40vw; height:28.125vw; background-color: transparent;z-index: 3; grid-row:16/22; grid-column:3/8;}
+main #main5 p{font-size:1.5vw; margin:1vw; margin:0 auto; text-align: center; }
+main #main5 h3{font-size: 5.5vw; font-weight:bold; margin:0 auto; text-align: center; line-height: 12vw; margin-top: 5vw;}
+main #main5 #main5_1{width:40vw; height:28.125vw;  background-color: transparent;z-index: 1; grid-row: 2/8; grid-column:4/9; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
+main #main5 #main5_1:hover{color:#316bb8; border:0.05208vw solid #fac728;}
+main #main5 #main5_2{width:40vw; height:28.125vw;  background-color: transparent;z-index: 5; grid-row: 7/13; grid-column:6/11; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
+main #main5 #main5_2:hover{color:#1da9fc; border:0.05208vw solid #fac728;}
+main #main5 #main5_3{width:40vw; height:28.125vw;  background-color: transparent;z-index: 2; grid-row: 11/17; grid-column:2/7; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
+main #main5 #main5_3:hover{color:#f4631c; border:0.05208vw solid #fac728;}
+main #main5 #main5_4{width:40vw; height:28.125vw; background-color: transparent;z-index: 4; grid-row:12/18; grid-column:7/12; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
+main #main5 #main5_4:hover{border:0.05208vw solid #fac728;}
+main #main5 #main5_5{width:40vw; height:28.125vw; background-color: transparent;z-index: 3; grid-row:16/22; grid-column:3/8; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
+main #main5 #main5_5:hover{border:0.05208vw solid #fac728;}
 
 footer{width:100vw; margin: 0 auto 9.635vw;}
 footer #contact{visibility: hidden; height:5vw;}
