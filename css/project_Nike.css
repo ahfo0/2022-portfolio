@@ -112,7 +112,7 @@ main #main4 div:nth-child(1){grid-row:2/3; grid-column:1/2; margin-left:0.5vw;}
 main #main4 div:nth-child(2){grid-row:2/3; grid-column:2/3;}
 main #main4 div:nth-child(3){grid-row:4/5; grid-column:1/2;}
 main #main4 div:nth-child(3) div{font-size:3.5vw; display:grid; grid-template-rows:5vw; margin-left:0.5vw;}
-main #main4 div:nth-child(3) div:nth-child(4){grid-column:1/2; grid-row:1/2; grid-template:1fr/1fr;}
+main #main4 div:nth-child(3) div:nth-child(4){grid-column:1/2; grid-row:5/6; grid-template:5vw/1fr;}
 main #main4 div:nth-child(4){grid-row:4/5; grid-column:2/3; display:grid; grid-template:5vw 10vw 10vw 2vw /repeat(2,20vw);}
 main #main4 div:nth-child(4) div p{margin:0; margin-bottom:1vw; margin-left:1vw;}
 main #main4 div:nth-child(4) div:nth-of-type(even) p{margin-left:2vw;}
@@ -146,3 +146,10 @@ main #main5 #main5_4 div:nth-child(1) div{font-size:3vw; grid-column:1/2; margin
 main #main5 #main5_4 div:nth-child(2){grid-column:2/3; grid-row: 3/4;}
 main #main5 #main5_4 div:nth-child(3){grid-column:3/4; grid-row: 2/4;}
 main #main5 #main5_4 div:nth-child(3) div{margin-left:4vw; font-size:1.5vw;}
+main #main5 #main5_5{font-size:2vw;  display:grid; grid-template:2vw repeat(3,3vw) /38vw 4vw 38vw;border-bottom: 0.052vw solid #121212; text-align:left;}
+main #main5 #main5_5 div{margin-bottom:0.5vw}
+main #main5 #main5_5 div:nth-child(1){grid-column:1/2; grid-row: 2/4; margin-left:0.5vw;display:grid}
+main #main5 #main5_5 div:nth-child(1) div{font-size:3vw; grid-column:1/2; margin-left:2vw;}
+main #main5 #main5_5 div:nth-child(2){grid-column:2/3; grid-row: 3/4;}
+main #main5 #main5_5 div:nth-child(3){grid-column:3/4; grid-row: 2/4;}
+main #main5 #main5_5 div:nth-child(3) div{margin-left:4vw; font-size:1.5vw;}
