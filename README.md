@@ -2,6 +2,15 @@
 
 https://220207.netlify.app/
 
+### 저장소 바로가기
+
+- FITNESS
+  https://github.com/ahfo0/Fitness
+  
+- NIKE
+  https://github.com/ahfo0/Nike-website
+
+
 ### 특징
 
 - PC버전 포트폴리오 사이트 입니다.
