@@ -131,10 +131,12 @@ main #main5 #main5_1 #main5_1_p{margin-top:2vw; display:grid; grid-template:repe
 main #main5 #main5_2{grid-row:2/3; display:grid;  grid-template: 3vw 28vw 3vw /7.5vw 65vw 7.5vw;  border-bottom: 0.052vw solid #121212;}
 main #main5 #main5_2 #main5_2_d{grid-column:2/3;}
 main #main5 #main5_2 #main5_2_p{margin-top:2vw; display:grid; grid-template-rows:repeat(5,1fr) ;font-size:1.5vw; place-items: start; grid-row:2/3;grid-column:2/3;}
+main #main5 #main5_2 #main5_2_p p:nth-child(2){font-size:1.3vw; margin:0; margin-left:2vw;}
 main #main5 #main5_3{grid-row:3/4; display:grid;  grid-template: 3vw repeat(3,16vw) 3vw /7.5vw 65vw 7.5vw; }
 main #main5 #main5_3 #main5_3_d{grid-row:1/2; grid-column:2/3;}
 main #main5 #main5_3 p{font-size:1.5vw; margin-left:3vw;}
 main #main5 #main5_3 div p:nth-child(1){font-size:1.8vw; font-weight:400; margin-left:0;}
 main #main5 #main5_3 #main5_3_p1{grid-row:2/3; grid-column:2/3; margin-top:3vw;}
+
 main #main5 #main5_3 #main5_3_p2{grid-row:3/4; grid-column:2/3; margin-top:3vw;}
 main #main5 #main5_3 #main5_3_p3{grid-row:4/5; grid-column:2/3; margin-top:3vw;}
