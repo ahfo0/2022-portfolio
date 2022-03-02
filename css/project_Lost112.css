@@ -122,16 +122,21 @@ main #main4 div:nth-child(4) div:nth-child(1){grid-column:2/3; font-size:2.5vw;}
 main #main4 div:nth-child(4) div:nth-child(2){grid-column:4/5; font-size:2.5vw;}
 main #main4 div:nth-child(4) div:nth-child(3){grid-column:6/7;margin:1.5vw auto; display:block;  font-size:2.5vw;}
 main #main4 div:nth-child(4) div p{font-size:1vw; text-align:center;}
-main #main5{width:80vw; margin:0 10vw; margin-bottom:5vw; border-bottom: 0.052vw solid #121212; display:grid; grid-template-rows:25vw 38vw 55vw; place-items:start; margin-bottom:10vw;}
+main #main5{width:80vw; margin:0 10vw; margin-bottom:5vw; border-bottom: 0.052vw solid #121212; display:grid; grid-template-rows:25vw 42vw 55vw; place-items:start; margin-bottom:10vw;}
 main #main5 div div:nth-child(1){font-size:2.5vw; font-weight:500;}
 main #main5 p{padding-left:2vw; font-weight:300;}
 main #main5 #main5_1{grid-row:1/2; display:grid; grid-template: 3vw 15vw 3vw /7.5vw 65vw 7.5vw;  border-bottom: 0.052vw solid #121212;}
 main #main5 #main5_1 #main5_1_d{grid-column:2/3;}
 main #main5 #main5_1 #main5_1_p{margin-top:2vw; display:grid; grid-template:repeat(3,1fr)/repeat(4,1fr); font-size:1.5vw; place-items: start; grid-row:2/3;grid-column:2/3;}
-main #main5 #main5_2{grid-row:2/3; display:grid;  grid-template: 3vw 28vw 3vw /7.5vw 65vw 7.5vw;  border-bottom: 0.052vw solid #121212;}
+main #main5 #main5_2{grid-row:2/3; display:grid;  grid-template: 3vw 32vw 3vw /7.5vw 65vw 7.5vw;  border-bottom: 0.052vw solid #121212;}
 main #main5 #main5_2 #main5_2_d{grid-column:2/3;}
 main #main5 #main5_2 #main5_2_p{margin-top:2vw; display:grid; grid-template-rows:repeat(5,1fr) ;font-size:1.5vw; place-items: start; grid-row:2/3;grid-column:2/3;}
 main #main5 #main5_2 #main5_2_p p:nth-child(2){font-size:1.3vw; margin:0; margin-left:2vw;}
+main #main5 #main5_2 #main5_2_p p:nth-child(3){font-size:1.3vw; margin:0; margin-left:3.5vw; margin-bottom:0.5vw;}
+main #main5 #main5_2 #main5_2_p p:nth-child(4){font-size:1.3vw; margin:0; margin-left:2vw;}
+main #main5 #main5_2 #main5_2_p p:nth-child(5){font-size:1.3vw; margin:0; margin-left:3.5vw;  margin-bottom:0.5vw;}
+main #main5 #main5_2 #main5_2_p p:nth-child(6){font-size:1.3vw; margin:0; margin-left:2vw;}
+main #main5 #main5_2 #main5_2_p p:nth-child(7){font-size:1.3vw; margin:0; margin-left:3.5vw;}
 main #main5 #main5_3{grid-row:3/4; display:grid;  grid-template: 3vw repeat(3,16vw) 3vw /7.5vw 65vw 7.5vw; }
 main #main5 #main5_3 #main5_3_d{grid-row:1/2; grid-column:2/3;}
 main #main5 #main5_3 p{font-size:1.5vw; margin-left:3vw;}
