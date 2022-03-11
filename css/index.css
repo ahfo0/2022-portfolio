@@ -50,10 +50,11 @@ nav #portfolio_nav ul li a{display:grid; width:10.416vw; height:4.166vw;  place-
 nav #portfolio_nav ul li #lost112:hover{background-color: #316bb8; color:#121212; transition: all .45s;}
 nav #portfolio_nav ul li #fitness:hover{background-color: #1da9fc; color:#121212; transition: all .45s;}
 nav #portfolio_nav ul li #nike:hover{background-color: #f4631c; color:#121212; transition: all .45s;}
+nav #portfolio_nav ul li #laab:hover{background-color: #eda498; color:#121212; transition: all .45s;}
 nav #portfolio_nav ul li:nth-child(1){grid-column:1/2; border:0.05208vw solid #d4d4d4;}
 nav #portfolio_nav ul li:nth-child(2){grid-column:2/3; border:0.05208vw solid #d4d4d4;}
 nav #portfolio_nav ul li:nth-child(3){grid-column:3/4; border:0.05208vw solid #d4d4d4;}
-nav #portfolio_nav ul li:nth-child(4){grid-column:4/5}
+nav #portfolio_nav ul li:nth-child(4){grid-column:4/5; border:0.05208vw solid #d4d4d4}
 nav #portfolio_nav ul li:nth-child(5){grid-column:5/6}
 header{width:100vw; height:6.77vw; background-color: #121212;}
 header #header{width:100vw; height:6.77vw; margin:0 auto; display:grid; grid-template:1.302vw 4.166vw 1.302vw /5vw 4.166vw 1fr 26.4298vw 5vw;position:fixed; top:0;  transition:0.5s; background-color: #121212; z-index:2000;}
@@ -162,7 +163,7 @@ main #main5 #main5_2:hover{color:#1da9fc; border:0.05208vw solid #fac728;}
 main #main5 #main5_3{width:40vw; height:28.125vw;  background-color: transparent;z-index: 2; grid-row: 11/17; grid-column:2/7; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
 main #main5 #main5_3:hover{color:#f4631c; border:0.05208vw solid #fac728;}
 main #main5 #main5_4{width:40vw; height:28.125vw; background-color: transparent;z-index: 4; grid-row:12/18; grid-column:7/12; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
-main #main5 #main5_4:hover{border:0.05208vw solid #fac728;}
+main #main5 #main5_4:hover{color:#eda498; border:0.05208vw solid #fac728;}
 main #main5 #main5_5{width:40vw; height:28.125vw; background-color: transparent;z-index: 3; grid-row:16/22; grid-column:3/8; border:0.05208vw solid #d4d4d4; background-color: #121212; transition:0.4s}
 main #main5 #main5_5:hover{border:0.05208vw solid #fac728;}
 
