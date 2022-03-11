@@ -5,10 +5,13 @@ https://220207.netlify.app/
 ### 저장소 바로가기
 
 - FITNESS
-  https://github.com/ahfo0/Fitness
+  https://github.com/ahfo0/Fitness-website
   
 - NIKE
   https://github.com/ahfo0/Nike-website
+  
+- LAAB
+  https://github.com/ahfo0/LAAB-website
 
 
 ### 특징
@@ -37,8 +40,8 @@ https://220207.netlify.app/
 - 14차 수정 : 2022.02.27 (Lost112 상세페이지 목업 수정, Nike 상세페이지 수정)
 - 15차 수정 : 2022.02.28 (Nike, Lost112 상세페이지 텍스트 수정)
 - 16차 수정 : 2022.03.02 (Lost112 상세페이지 리메이크)
+- 17차 수정 : 2022.03.11 (프로젝트 LAAB 상세페이지 초안)
 
 ### 보완 예정
 
-- 신규 반응형 웹 프로젝트 LAAB 추가
-- 연락처 기능
+- 연락처 기능 변경
