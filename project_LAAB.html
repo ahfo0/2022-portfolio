@@ -90,16 +90,17 @@
             </div>
             <div id="main2">
                 <div>저의 세 번째 개인 프로젝트 작업입니다.</div>
-                <div>아직 제작중입니다. </div>
-                <div></div>
+                <div>AOS library를 사용하여 스크롤 애니메이션 효과를 구현했고 </div>
+                <div>PC 버전에 Mousewheel.js로 수평 이동이 가능한 구조를 만들었습니다.</div>
                 <div></div>
             </div>
             <div id="main3">
+                <div>
+                    <video autoplay loop muted src="images/play_laak.mp4"></video>
+                </div>
                 <div>View</div>
                 <div><a href="https://220307.netlify.app">사이트 보러가기</a></div>
-                <div>
-                    <video autoplay loop muted src=""></video>
-                </div>
+                
             </div>
             <div id="main4">
                 <div>About</div>
@@ -108,9 +109,8 @@
                     <div># 반응형웹</div>
                     <div># 웹표준</div>
                     <div># 시맨틱마크업</div>
-                    <div># CSSTransition</div>
-                    <div># Swiper.js</div>
-                    <div># Ajax&JSON</div>
+                    <div># mousewheel.js</div>
+                    <div># AOS.js</div>
                 </div>
                 <div>
                     <div>
@@ -125,23 +125,23 @@
                         <p></p>
                     </div>
                     <div>
-                        <p>최적 해상도 (가로)</p>
+                        <p>최적 해상도</p>
                         <p></p>
                         <p></p>
                     </div>
                     <div>
-                        <p>PC : 1920px</p>
-                        <p>태블릿 : 820px</p>
-                        <p>모바일 : 412px</p>
+                        <p>PC : 1920 x 1080px</p>
+                        <p>모바일 : 390 x 844px</p>
+                        <p></p>
                     </div>
                     <div>
                         <p>미디어쿼리 브레이크 포인트</p>
                         <p></p>
                     </div>
                     <div>
-                        <p>PC : 961px 이상</p>
-                        <p>태블릿 : 641 ~ 960px</p>
-                        <p>모바일 : 651px 이하</p>
+                        <p>PC : 1024px 이상</p>
+                        <p>모바일 & 태블릿 : ~1023px</p>
+                        <p></p>
                     </div>                              
                 </div>
             </div>
@@ -157,48 +157,35 @@
                     </div>
                     <div></div>
                     <div>
-                        <div>여러 미디어쿼리 브레이크 포인트를 통해서 콘텐츠</div>
-                        <div>및 레이아웃 구성이 변화하는 것을 Grid를 이용하여</div>
-                        <div>대응하였다.</div>
+                        <div>vh로 작업할 때, innerHeight와 outerHeight</div>
+                        <div>값의 차이를 메꾸고 콘텐츠를 하단에 붙이기 위해</div>
+                        <div>header와 main 사이에 충분한 여백을 부여했다.</div>
                     </div>
                 </div>
                 <div id="main5_3">
                     <div>
                         <div></div>
-                        <div>CSS transition</div>
+                        <div>AOS.js</div>
                         <div></div>
                     </div>
                     <div></div>
                     <div>
-                        <div>PC버전의 header 드롭다운 메뉴를 스크립트를 </div>
-                        <div>사용하지않고 CSS만을 이용해서 작동하게 </div>
-                        <div>만들어봤다.</div>
+                        <div>라이브러리를 그대로 적용하기 까다로운 부분은</div>
+                        <div>개발자 도구와 코드를 확인해서 해당 부분의 효과를</div>
+                        <div>추출한 뒤 css로 구현해냈다.</div>
                     </div>
                 </div>
                 <div id="main5_4">
                     <div>
                         <div></div>
-                        <div>Swiper.js</div>
+                        <div>Mousewheel.js</div>
                         <div></div>
                     </div>
                     <div></div>
                     <div>
-                        <div>Grid와 Overflow를 통해 구현했던 슬라이드 효과를</div>
-                        <div>간단한 플러그인 Swiper.js를 통해 편하게 구현하고</div>
-                        <div>루프와 좌우 버튼을 통해 사용자 편의도 늘렸다.</div>
-                    </div>
-                </div>
-                <div id="main5_5">
-                    <div>
-                        <div></div>
-                        <div>Ajax & JSON</div>
-                        <div></div>
-                    </div>
-                    <div></div>
-                    <div>
-                        <div>jQuery의 간편한 문법을 통해 Ajax를 사용해서</div>
-                        <div>JSON의 객체 데이터를 불러왔고 Swiper.js가</div>
-                        <div>적용된 콘텐츠를 채우는 데 활용하였다. </div>
+                        <div>단순히 마우스휠 이벤트를 부여하는 것은 쉬웠으나</div>
+                        <div>문서에서 필요한 부분에 해당 이벤트를 부여하다가</div>
+                        <div>원래대로 되돌리는 부분에서 어려움을 겪었다.</div>
                     </div>
                 </div>
             </div>
