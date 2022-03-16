@@ -27,16 +27,12 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
-
         <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
+        <!-- normalize -->
         <link rel="stylesheet" href="common/normalize.css">
-        <!-- aos local-->
-        <!-- <script src="common/aos.js"></script>
-        <link rel="stylesheet" href="common/aos.css"> -->
         <!-- aos CDN -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -179,10 +175,10 @@
                 <div>
                     <h2>감사합니다</h2>
                     <ul>
-                        <li><a href="tel:010-3423-8527"></a></li>
-                        <li><a href=""></a></li>
-                        <li><a href="mailto:ahfo0@naver.com"></a></li>
-                        <li><a href="https://github.com/ahfo0" target="_blank"></a></li>
+                        <li><a href="tel:010-3423-8527"></a><p>010-3423-8527</p></li>
+                        <li><a href="mailto:ahfo0@naver.com"></a><p>ahfo0@naver.com</p></li>
+                        <li><a href="https://github.com/ahfo0" target="_blank"></a><p>GitHub 바로가기</p></li>
+                        <li><a href=""></a><p>이력서</p></li>
                     </ul>
                 </div>                
             </div>
@@ -247,7 +243,8 @@
             idx++;
             if(idx >= box.length) idx= 0;
             }
-});         
+            });         
+            
         </script>
     </body>
 </html>
