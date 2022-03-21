@@ -179,7 +179,7 @@ footer #footer_top div ul li:nth-child(2){grid-column:3/4; background:url(../ima
 footer #footer_top div ul li:nth-child(3){grid-column:5/6; background:url(../images/github_black.png) no-repeat; background-size:cover; width:3.645vw; height:3.645vw;}
 footer #footer_top div ul li:nth-child(4){grid-column:7/8; background:url(../images/resume.png) no-repeat; background-size:cover; width:3.645vw; height:3.645vw;}
 footer #footer_top div ul li a{display:grid; width:3.645vw; height:3.645vw;}
-footer #footer_top div ul li p{ position:absolute; width: 15.625vw; text-align:center; top:-6.385vw; left : 0; font-size:2.5rem; line-height:1.5; color:#121212; background-color: #d4d4d4; -webkit-border-radius: 0.42vw;-moz-border-radius: 0.42vw; border-radius: 1vw; opacity:0} 
+footer #footer_top div ul li p{ position:absolute; width: 15.625vw; text-align:center; top:-6.385vw; left : 0; font-size:2.1vw; line-height:1.5; color:#121212; background-color: #d4d4d4; -webkit-border-radius: 0.42vw;-moz-border-radius: 0.42vw; border-radius: 1vw; opacity:0} 
 footer #footer_top div ul li p:after {
     border-top:0.8vw solid #d4d4d4;
     border-left: 0.8vw  solid transparent;
